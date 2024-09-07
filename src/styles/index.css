@@ -10,3 +10,38 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+
+.cardImg {
+height: 200px;
+border-bottom: solid 1px black ;
+}
+
+.cardContainer {
+    border: solid 5px black;
+}
+
+.card-body{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;    
+    height: 100%;
+    text-align: justify;
+}
+
+.topButton {
+    margin: 35px;
+}
+
+.jumbotronTitle {
+    margin-bottom: 50px;
+    color: white;
+}
+
+.jumbotronSubTitle {
+    margin-top: 35px;
+    color: white;
+}
+
+.h5Title {
+    margin-bottom: 10px;
+}
