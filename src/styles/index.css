@@ -10,14 +10,21 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+body {
+    background-image: linear-gradient(rgb(19, 19, 16), rgb(0, 0, 0),  rgb(228, 36, 10));
+}
 
 .cardImg {
 height: 200px;
+border-radius: 25px;
 border-bottom: solid 1px black ;
 }
 
 .cardContainer {
-    border: solid 5px black;
+    border: solid 5px rgb(238, 229, 229);
+    width: 380px;
+    border-radius: 30px;
+
 }
 
 .card-body{
@@ -26,6 +33,8 @@ border-bottom: solid 1px black ;
     justify-content: space-between;    
     height: 100%;
     text-align: justify;
+    background-color: linear-gradient(rgb(12, 12, 11), rgb(0, 0, 0),  rgb(228, 36, 10))
+    
 }
 
 .topButton {
@@ -33,15 +42,97 @@ border-bottom: solid 1px black ;
 }
 
 .jumbotronTitle {
-    margin-bottom: 50px;
+   
     color: white;
+    font-size: 100px;
+
+    
 }
 
 .jumbotronSubTitle {
-    margin-top: 35px;
+ 
     color: white;
+    font-size: 50px;
+}
+
+.jumbotronContainer1 {
+    background-color: black;
+    border-radius: 35px;
+    height: 180px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+
+    
+}
+
+.jumbotronContainer2 {
+    background-color: black;
+    border-radius: 35px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+
+
+    
+   
 }
 
 .h5Title {
     margin-bottom: 10px;
+    
 }
+
+.jumbotronContainer{
+    width: 100%;
+    background-image: url("https://th.bing.com/th/id/R.e7c51766a71f6d9d380d3f2036fea7a6?rik=ksAVL3wOhJQDIQ&pid=ImgRaw&r=0");
+    background-repeat:no-repeat;
+    background-size: cover;
+    
+}
+
+
+
+
+.flexCards {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.flexCards2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.headerImg {
+   background-color: black;
+    color:white;   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: x-large;
+    font-weight: bolder;
+}
+
+.btn {
+    background-color: black;
+    border-radius: 10px;
+    border: none;
+    color: white;
+}
+
+.card-header{
+    height: 100px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+   
+    
+}
+
+    

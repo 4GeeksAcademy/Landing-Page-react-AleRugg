@@ -1,35 +1,56 @@
 const CardDescription = [{
 
-    title: "¿Qué es Lorem Ipsum?",
-    description: "Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta) desconocido usó una galería de textos y los mezcló de tal manera que logró hacer un libro de textos especimen. No sólo sobrevivió 500 años, sino que tambien ingresó como texto de relleno en documentos electrónicos, quedando esencialmente igual al original. Fue popularizado en los 60s con la creación de las hojas Letraset, las cuales contenian pasajes de Lorem Ipsum, y más recientemente con software de autoedición, como por ejemplo Aldus PageMaker, el cual incluye versiones de Lorem Ipsum.",
-    buttonLabel: "boton 1",
-    image: "https://media.istockphoto.com/id/1338951538/es/foto/iceberg.jpg?s=2048x2048&w=is&k=20&c=igzFXUoH5X6ddXy8lH4aHtDOzSzFT4zxbxs9kAvJto0=",
-    className: "Img1"
+    title: "La Plataforma de Videos para Todo y Todos",
+    description: "YouTube es la plataforma de videos más grande del mundo, donde puedes descubrir, crear y compartir contenido de todo tipo. Con millones de usuarios activos diariamente, YouTube ofrece desde tutoriales y reseñas hasta música y entretenimiento. Gracias a su algoritmo, la plataforma te recomienda contenido según tus intereses, y permite a creadores monetizar sus videos. Disponible en casi todos los dispositivos, YouTube ha evolucionado para incluir transmisiones en vivo, películas y programas de TV. Es un espacio dinámico para aprender y entretenerte.",
+    buttonLabel: "Ir a Youtube",
+    image: "https://th.bing.com/th/id/OIP.Ts6uT4cESW7sibxBJrbIRAHaDy?rs=1&pid=ImgDetMain",
+    url: "https://www.youtube.com/",
+   
 },
 
 {
-    title: "¿Por qué lo usamos?",
-    description: "Es un hecho establecido hace demasiado tiempo que un lector se distraerá con el contenido del texto de un sitio mientras que mira su diseño. El punto de usar Lorem Ipsum es que tiene una distribución más o menos normal de las letras, al contrario de usar textos como por ejemplo .... Estos textos hacen parecerlo un español que se puede leer. Muchos paquetes de autoedición y editores de páginas web usan el Lorem Ipsum como su texto por defecto, y al hacer una búsqueda de Lorem Ipsum va a dar por resultado muchos sitios web que usan este texto si se encuentran en estado de desarrollo. Muchas versiones han evolucionado a través de los años, algunas veces por accidente, otras veces a propósito (por ejemplo insertándole humor y cosas por el estilo).",
-    buttonLabel: "boton 2",
-    image: "https://media.istockphoto.com/id/1124563104/es/foto/iceberg-en-el-mar-en-el-atardecer.jpg?s=2048x2048&w=is&k=20&c=ALEhhmTMILp7OcDYX4uTr-a_r2S1-3uMi7qq9gb1JgI=",
-    className: "Img2"
+    title: "Comparte tu Mundo en Imágenes",
+    description: "Instagram es la red social visual por excelencia, diseñada para compartir fotos, videos y momentos a través de imágenes atractivas. Con herramientas como las Stories, Reels y publicaciones permanentes, los usuarios pueden interactuar con amigos, marcas y creadores en un formato visual. Además, Instagram ha integrado funciones de compras y permite a las empresas crear perfiles comerciales, haciendo que la plataforma sea ideal tanto para el entretenimiento como para el marketing. Sus filtros y herramientas de edición hacen que cada publicación se vea profesional y única.",
+    buttonLabel: "Ir a Instagram",
+    image: "https://wallpapercave.com/wp/wp5979901.jpg",
+    
 },
 
 {
-    title: "¿De dónde viene?",
-    description: "Al contrario del pensamiento popular, el texto de Lorem Ipsum no es simplemente texto aleatorio. Tiene sus raices en una pieza cl´sica de la literatura del Latin, que data del año 45 antes de Cristo, haciendo que este adquiera mas de 2000 años de antiguedad. Richard McClintock, un profesor de Latin de la Universidad de Hampden-Sydney en Virginia, encontró una de las palabras más oscuras de la lengua del latín, consecteur, en un pasaje de Lorem Ipsum, y al seguir leyendo distintos textos del latín, descubrió la fuente indudable. Lorem Ipsum viene de las secciones 1.10.32 y 1.10.33 de de Finnibus Bonorum et Malorum (Los Extremos del Bien y El Mal) por Cicero, escrito en el año 45 antes de Cristo. Este libro es un tratado de teoría de éticas, muy popular durante el Renacimiento. La primera linea del Lorem Ipsum, Lorem ipsum dolor sit amet.., viene de una linea en la sección 1.10.32",
-    buttonLabel: "boton 3",
-    image: "https://cdn.pixabay.com/photo/2017/02/13/11/45/ice-2062433_1280.jpg",
-    className: "Img3"
+    title: "Donde los Videos Cortos Crean Grandes Tendencias",
+    description: "TikTok ha revolucionado la manera en que consumimos contenido a través de videos cortos y entretenidos. La plataforma es conocida por su algoritmo altamente personalizado, que te muestra contenido adaptado a tus gustos y preferencias. Los usuarios pueden crear videos de hasta 3 minutos, con herramientas de edición, efectos especiales, música y desafíos virales. TikTok no solo es un espacio para entretenimiento y tendencias, sino también para el descubrimiento de música, educación rápida y momentos virales. Su comunidad global es diversa y muy activa.",
+    buttonLabel: "Ir a TikTok",
+    image: "https://wallpapers.com/images/hd/tiktok-background-93kxygv4om4e0ivo.jpg",
+    
+    
 },
-
 {
-    title: "¿Dónde puedo conseguirlo?",
-    description: "Hay muchas variaciones de los pasajes de Lorem Ipsum disponibles, pero la mayoría sufrió alteraciones en alguna manera, ya sea porque se le agregó humor, o palabras aleatorias que no parecen ni un poco creíbles. Si vas a utilizar un pasaje de Lorem Ipsum, necesitás estar seguro de que no hay nada avergonzante escondido en el medio del texto. Todos los generadores de Lorem Ipsum que se encuentran en Internet tienden a repetir trozos predefinidos cuando sea necesario, haciendo a este el único generador verdadero (válido) en la Internet. Usa un diccionario de mas de 200 palabras provenientes del latín, combinadas con estructuras muy útiles de sentencias, para generar texto de Lorem Ipsum que parezca razonable. Este Lorem Ipsum generado siempre estará libre de repeticiones, humor agregado o palabras no características del lenguaje, etc.",
-    buttonLabel: "boton 4",
-    image: "https://cdn.pixabay.com/photo/2023/05/21/07/59/iceberg-8008071_1280.jpg",
-    className: "Img4"
+    title: "La Inteligencia Artificial que Conversa Contigo",
+    description: "ChatGPT es un asistente conversacional impulsado por inteligencia artificial que te ayuda a generar texto coherente y relevante en respuesta a cualquier tipo de pregunta o conversación. Basado en el modelo GPT, desarrollado por OpenAI, ChatGPT puede escribir desde ensayos hasta guiones, ofrecer sugerencias de ideas y ayudar en tareas como la traducción o la programación. Su capacidad de comprender el contexto hace que las conversaciones sean fluidas y naturales, haciéndolo útil tanto para usuarios casuales como para profesionales que necesitan asistencia rápida y precisa.",
+    buttonLabel: "Ir a ChatGPT",
+    image: "https://iphonesoft.fr/images/2023/01/chatgpt-logo-header-banner.jpg",
+    
 }]
 
 
-export {CardDescription}
+const SecondaryCard = [{
+
+    header: "SPOTIFY",
+    title: "Aqui conectas con Spotify!",
+    description: "Spotify es una plataforma de streaming de música líder que ofrece acceso a millones de canciones, listas de reproducción personalizadas y podcasts. Con su interfaz intuitiva y algoritmos de recomendación, permite descubrir nueva música basada en tus gustos. Disponible en múltiples dispositivos, Spotify ofrece planes gratuitos con anuncios y suscripciones premium sin publicidad, con opciones adicionales como la reproducción offline y la calidad de sonido mejorada.",
+    buttonLabel: "Ir a Spotify",
+    image: "",
+  
+    
+
+},
+{
+    header: "TIDAL",
+title: "Aqui conectas con Tidal!",
+description: "Tidal es un servicio de streaming de música conocido por su enfoque en la alta calidad de sonido y la exclusividad de contenido. Ofrece una extensa biblioteca de música, videos y listas de reproducción, con opciones de suscripción en calidad estándar y HiFi, que proporciona audio en alta resolución. Tidal también destaca por su apoyo a artistas con mayores regalías y su contenido exclusivo, incluyendo lanzamientos anticipados y videos exclusivos.",
+buttonLabel: "Ir a Tidal",
+image: "",
+className: "Img4"},
+]
+
+export {CardDescription, SecondaryCard}

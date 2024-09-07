@@ -3,24 +3,23 @@ import React from "react";
 //include images into your bundle
 import { Jumbotron } from "./jumbotron";
 import { Navbar } from "./navbar";
-import { Card } from "./card";3
 import { Contenedor } from "./contenedor";
-import { CardDescription } from "./constantes";
+import { Contenedor2 } from "./contenedor2";
+
+
 
 
 //create your first component
-const Home = () => {
-	CardDescription
+const Home = () => {	
 	
 	return (
 		<div className="text-center"> 
 
 				<Navbar></Navbar>
-				<Jumbotron subTitle="Primer Landing Page con REACT" buttonLabel="Pincha aqui!" title={"Bienvenidos a REACT"}></Jumbotron>
-				<Contenedor >
-
-					
-				</Contenedor>
+				<Jumbotron subTitle={"Descubre aqui cada una de ellas!"} buttonLabel="Pincha aqui!" title={"Apps mas usadas por los usuarios"}></Jumbotron>
+				<Contenedor> </Contenedor>
+				<Contenedor2></Contenedor2>
+				
 					
 
 
