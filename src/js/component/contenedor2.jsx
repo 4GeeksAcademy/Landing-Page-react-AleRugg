@@ -23,6 +23,7 @@ const Contenedor2 = ({}) => {
     header={card.header}
     footerText={card.footer}
     icon={card.icon}
+    url = {card.url}
     
     >
    
@@ -53,6 +54,7 @@ Contenedor2.proptypes = {
     description: PropTypes.string.isRequired,
     buttonLabel: PropTypes.string.isRequired,
     image: PropTypes.string.isRequired,
+    url: PropTypes.string.isRequired,
 }
 
 

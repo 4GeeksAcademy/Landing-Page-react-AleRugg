@@ -11,7 +11,7 @@ return (
   <div className="card-body">
     <h5 className="card-title text-center h5Title">{prop.title}</h5>
     <p className="card-text">{prop.description}.</p>
-    <a href={prop.url} className="btn btn-primary">{prop.buttonLabel}</a>
+    <a href={prop.url} target="_blank" className="btn btn-primary">{prop.buttonLabel}</a>
   </div>
 </div>
 
